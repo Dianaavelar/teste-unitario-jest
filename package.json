@@ -1,0 +1,25 @@
+{
+  "name": "jest-unit-testing-examples-master",
+  "version": "1.0.0",
+  "description": "Estudo inicial de Jest - turma 0222",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.1",
+    "jest-html-reporter": "^3.5.0"
+  },
+  "jest": { 
+    "reporters": 
+    [ "default",
+    [ "./node_modules/jest-html-reporter", { "pageTitle": "Test Report" }]
+                ]
+          }
+    
+}
