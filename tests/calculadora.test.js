@@ -1,21 +1,22 @@
-const soma = require('./../src/soma');
-const calculadora = require ('./../src/soma')
+const {sum,diff, product, divi} = require('./../src/calculadora');
+const calculadora = require ('./../src/calculadora')
 
-test ('A soma de 1 e 2 deve ser igual a 3', () => {
-    expect(sum(1,2)).toBe(3);
-
-});
-
-test ('A diferença de 10 e 2 deve ser igual a 8', () => {
-    expect(diferenca(10,2)).toBe(8);
-
-});
-test ('A multiplicacao de 3 e 2 de ser igual a 6', () => {
-    expect(product(3,2)).toBe(6);
+test ('A soma de 5 e 3 deve ser igual a 8', () => {
+    expect(sum(5,3)).toBe(8);
 
 });
 
-test ('A divisao de 10 e 2 deve ser igual a 5', () => {
-    expect(divi(10,2)).toBe(5);
+test ('A diferença de 6 e 2 deve ser igual a 4', () => {
+    expect(diff(6,2)).toBe(4);
+
+});
+test ('A multiplicacao de 3 e 3 deve ser igual a 9', () => {
+    expect(product(3,3)).toBe(9);
+
+});
+
+test ('A divisao de 8 e 2 deve ser igual a 4', () => {
+
+    expect(divi(8,2)).toBe(4);
 
 });
