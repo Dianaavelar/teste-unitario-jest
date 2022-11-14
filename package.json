@@ -1,25 +1,28 @@
 {
-  "name": "jest-unit-testing-examples-master",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "name": "estudo-jest",
   "version": "1.0.0",
-  "description": "Estudo inicial de Jest - turma 0222",
   "main": "index.js",
   "directories": {
-    "test": "tests"
+    "test": "jest"
   },
   "scripts": {
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dianaavelar/teste-unitario-jest.git"
+  },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "jest": "^28.1.1",
-    "jest-html-reporter": "^3.5.0"
+  "bugs": {
+    "url": "https://github.com/Dianaavelar/teste-unitario-jest/issues"
   },
-  "jest": { 
-    "reporters": 
-    [ "default",
-    [ "./node_modules/jest-html-reporter", { "pageTitle": "Test Report" }]
-                ]
-          }
-    
+  "homepage": "https://github.com/Dianaavelar/teste-unitario-jest#readme",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.3.0"
+  }
 }
