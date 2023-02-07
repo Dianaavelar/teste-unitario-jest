@@ -8,4 +8,4 @@ const calculators = {
     
     div: function(a,b) { return a/b;}
 }
-module.exports = calculators
+module.exports = calculators__VSCode-Escape-Value
