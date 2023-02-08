@@ -13,7 +13,7 @@ test('A diferença de 10 e 2 deve ser igual a 8', ( ) => {
 });
 
 test('A multiplicaçao de 4 e 2 deve ser igual a 8', ( ) => {
-    expect(product(4, 2)).toBe(7);
+    expect(product(4, 2)).toBe(8);
 
 });
 
